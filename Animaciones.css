@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+
+}
+
+
+
+.btn-modern{
+    padding: 15px 10px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid salmon;
+    cursor: pointer;
+    
+}
+
+.btn-modern:hover{
+    justify-content: -5px;
+    box-shadow: red;
+    background-color: brown;
+    color: yellow;
+    transition: 0.4s;
+}
